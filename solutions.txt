@@ -93,3 +93,7 @@ where unit_price > (select avg(unit_price) from products)
 
 
 22.
+SELECT  city,count(employee_id)
+from employees
+group by city
+
