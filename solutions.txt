@@ -8,7 +8,9 @@ where unit_price > 50
 from Customers
 where country = 'Germany'
 
-3.
+3.SELECT * 
+from orders
+where customer_id = 'ANATR'
 4.
 5.
 6.
