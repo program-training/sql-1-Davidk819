@@ -65,10 +65,15 @@ SELECT *
 from customers
 where phone LIKE '%123%'
 
-17.SELECT *
+17.
+SELECT *
 from products
 where units_in_stock < 10 and discontinued = 0
-18.
+18
+.SELECT max(unit_price),min(unit_price)
+from products
+
+
 19.
 20.
 21.
