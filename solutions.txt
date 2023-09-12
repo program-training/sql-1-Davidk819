@@ -56,7 +56,10 @@ order by customer_id
 from PRODUCTS
 order by unit_price desc
 limit 1 
-15.
+
+15.SELECT avg( AGE(now(), birth_date) )
+from employees
+
 16.
 17.
 18.
