@@ -47,7 +47,10 @@ where Discontinued = 1
 from orders
 where extract(year from order_date) > 1997
 
-13.
+13.SELECT *
+from customers
+where contact_title in ('Owner','CEO') 
+order by customer_id
 14.
 15.
 16.
