@@ -51,7 +51,11 @@ where extract(year from order_date) > 1997
 from customers
 where contact_title in ('Owner','CEO') 
 order by customer_id
-14.
+
+14.SELECT *
+from PRODUCTS
+order by unit_price desc
+limit 1 
 15.
 16.
 17.
