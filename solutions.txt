@@ -11,7 +11,10 @@ where country = 'Germany'
 3.SELECT * 
 from orders
 where customer_id = 'ANATR'
-4.
+
+4.SELECT count(customer_id) as totalorders from orders
+group by customer_id
+
 5.
 6.
 7.
