@@ -35,7 +35,10 @@ from products
 from order_details
 where product_id = 2
 
-10.
+10.SELECT count(category_id)
+from categories
+
+
 11.
 12.
 13.
