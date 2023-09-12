@@ -15,9 +15,19 @@ where customer_id = 'ANATR'
 4.SELECT count(customer_id) as totalorders from orders
 group by customer_id
 
-5.
-6.
-7.
+5.SELECT * 
+from products
+order by unit_price desc
+limit 5
+6.SELECT * 
+from employees
+where extract(year from birth_date) < 1960
+
+7.SELECT * 
+from products
+where units_in_stock = 0
+
+
 8.
 9.
 10.
