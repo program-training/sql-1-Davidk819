@@ -4,7 +4,10 @@
 from products
 where unit_price > 50
 
-2.
+2.SELECT * 
+from Customers
+where country = 'Germany'
+
 3.
 4.
 5.
