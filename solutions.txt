@@ -28,7 +28,9 @@ from products
 where units_in_stock = 0
 
 
-8.
+8.SELECT avg(unit_price) as avg
+from products
+
 9.
 10.
 11.
