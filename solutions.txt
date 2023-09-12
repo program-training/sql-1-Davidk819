@@ -31,7 +31,10 @@ where units_in_stock = 0
 8.SELECT avg(unit_price) as avg
 from products
 
-9.
+9.SELECT sum(unit_price * quantity)
+from order_details
+where product_id = 2
+
 10.
 11.
 12.
