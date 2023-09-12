@@ -75,6 +75,11 @@ from products
 
 
 19.
+SELECT *
+from orders
+where order_date = '05-05-1997'
+
+
 20.
 21.
 22.
