@@ -43,7 +43,10 @@ from categories
 from products
 where Discontinued = 1
 
-12.
+12.SELECT count(order_id)
+from orders
+where extract(year from order_date) > 1997
+
 13.
 14.
 15.
