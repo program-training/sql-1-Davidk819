@@ -61,6 +61,10 @@ limit 1
 from employees
 
 16.
+SELECT *
+from customers
+where phone LIKE '%123%'
+
 17.
 18.
 19.
