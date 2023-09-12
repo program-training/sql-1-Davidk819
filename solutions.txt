@@ -39,7 +39,10 @@ where product_id = 2
 from categories
 
 
-11.
+11.SELECT *
+from products
+where Discontinued = 1
+
 12.
 13.
 14.
